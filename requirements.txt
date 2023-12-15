@@ -1,0 +1,4 @@
+Flask-HTTPAuth
+Flask
+Pyjwt
+requests
