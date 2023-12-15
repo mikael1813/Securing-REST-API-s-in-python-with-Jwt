@@ -54,7 +54,6 @@ def verify_auth_token(token):
     try:
         data = jwt.decode(token, key=key,
                           algorithms=['HS256'])
-        print(data)
     except Exception as e:
         print(e)
         return False
